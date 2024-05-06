@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(Eid-Ul-Fitr-Holidays-2018-in-Pakistan-Announced-By-Government.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-size: 4rem;
+}
+.title{
+    margin-top: 0%;
+    margin: 2px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 7px;
+    font-size: 3rem;
+    line-height: 2.5;
+}
+.title span {
+    display: block;
+    font-size: 6rem;
+    letter-spacing: 1rem;
+
+}
+.wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    
+}
+.countdown-container > div{
+    margin:0 2rem;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 0px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    color: #fff;
+    min-width: 150px;
+}
+.date-time {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+/* .name {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 400px; */
+/* } */
+@media (max-width:992px){
+    .countdown-container > div {
+       margin: 0 1rem;
+    }
+}
+@media (max-width:762px){
+.countdown-container{
+    flex-wrap: wrap;
+}
+.countdown-container > div{
+    margin: 1rem auto;
+    max-width: 150px;
+
+}
+.title{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin: 10px 0px;
+}
+.title span {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+
+}
+   
+
+}
